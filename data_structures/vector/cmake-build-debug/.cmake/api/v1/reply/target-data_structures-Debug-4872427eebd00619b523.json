@@ -1,11 +1,9 @@
 {
+	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "untitled14.exe"
-		},
-		{
-			"path" : "untitled14.pdb"
+			"path" : "libdata_structures.a"
 		}
 	],
 	"backtrace" : 1,
@@ -13,7 +11,7 @@
 	{
 		"commands" : 
 		[
-			"add_executable"
+			"add_library"
 		],
 		"files" : 
 		[
@@ -27,7 +25,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 1,
 				"parent" : 0
 			}
 		]
@@ -38,46 +36,19 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
+					"fragment" : "-g -fdiagnostics-color=always"
 				}
 			],
 			"language" : "C",
-			"languageStandard" : 
-			{
-				"backtraces" : 
-				[
-					1
-				],
-				"standard" : "11"
-			},
 			"sourceIndexes" : 
 			[
 				1
 			]
 		}
 	],
-	"id" : "untitled14::@6890427a1f51a3e7e1df",
-	"link" : 
-	{
-		"commandFragments" : 
-		[
-			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
-			{
-				"fragment" : "",
-				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
-			}
-		],
-		"language" : "C"
-	},
-	"name" : "untitled14",
-	"nameOnDisk" : "untitled14.exe",
+	"id" : "data_structures::@6890427a1f51a3e7e1df",
+	"name" : "data_structures",
+	"nameOnDisk" : "libdata_structures.a",
 	"paths" : 
 	{
 		"build" : ".",
@@ -114,5 +85,5 @@
 			"sourceGroupIndex" : 1
 		}
 	],
-	"type" : "EXECUTABLE"
+	"type" : "STATIC_LIBRARY"
 }
